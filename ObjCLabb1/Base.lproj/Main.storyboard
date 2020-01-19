@@ -11,7 +11,7 @@
         <!--About Me-->
         <scene sceneID="T9S-fq-jHk">
             <objects>
-                <viewController title="About Me" id="lCt-Sn-RjJ" customClass="ViewController" sceneMemberID="viewController">
+                <viewController title="About Me" id="lCt-Sn-RjJ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="x5H-la-Qfe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -111,9 +111,6 @@
                         <viewLayoutGuide key="safeArea" id="FLe-NL-fpb"/>
                     </view>
                     <navigationItem key="navigationItem" title="About Me" id="lU4-4W-r1p"/>
-                    <connections>
-                        <outlet property="appNameButtonAboutMe" destination="FqS-ue-Ecd" id="Nrq-xu-sWd"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DHO-Ek-6Te" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
