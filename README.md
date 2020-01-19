@@ -1,7 +1,7 @@
 ![AppCover-01](https://user-images.githubusercontent.com/50097658/72686472-74407000-3af5-11ea-9911-5ba563a9b311.png)
 
 
-# Labb 1. Appen om mig (Objective-C / Xcode)
+# Appen om mig (Objective-C / Xcode)
 
 En app som presenterar vem du är, dina intressen, varför du sökt den här utbildningen, eller något annat intressant.
 
