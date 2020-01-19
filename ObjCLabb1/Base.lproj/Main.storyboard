@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7L0-Vj-a1a">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -10,7 +11,7 @@
         <!--About Me-->
         <scene sceneID="T9S-fq-jHk">
             <objects>
-                <viewController title="About Me" id="lCt-Sn-RjJ" sceneMemberID="viewController">
+                <viewController title="About Me" id="lCt-Sn-RjJ" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="x5H-la-Qfe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -110,6 +111,9 @@
                         <viewLayoutGuide key="safeArea" id="FLe-NL-fpb"/>
                     </view>
                     <navigationItem key="navigationItem" title="About Me" id="lU4-4W-r1p"/>
+                    <connections>
+                        <outlet property="appNameButtonAboutMe" destination="FqS-ue-Ecd" id="Nrq-xu-sWd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DHO-Ek-6Te" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -410,11 +414,14 @@
                                 <state key="normal" title="CHANGE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vQN-Eg-AcL"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NavBar Dark Mode" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Six-5E-RKH">
-                                <rect key="frame" x="124" y="294" width="172" height="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Change App Name to Black in All Pages" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Six-5E-RKH">
+                                <rect key="frame" x="42" y="294" width="337" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -437,6 +444,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="zTN-lg-1qX"/>
+                    <connections>
+                        <outlet property="ChangeLabel" destination="Six-5E-RKH" id="sv4-Dy-0nG"/>
+                        <outlet property="appNameButtonHome" destination="bTg-8u-n6F" id="edw-4t-B8q"/>
+                        <outlet property="changeLabel" destination="Six-5E-RKH" id="fdA-uG-F9k"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -469,9 +481,9 @@
         <image name="YahyaMokaied" width="536.5" height="536.5"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="2jy-Go-oG0"/>
-        <segue reference="wi3-gc-rS6"/>
-        <segue reference="d1g-b3-6ZT"/>
-        <segue reference="DJu-Ji-I4L"/>
+        <segue reference="vpT-Ry-7eg"/>
+        <segue reference="wiT-ON-wcS"/>
+        <segue reference="ST7-BO-hr5"/>
+        <segue reference="eVu-7Z-HtQ"/>
     </inferredMetricsTieBreakers>
 </document>
