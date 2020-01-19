@@ -1,20 +1,15 @@
 ![AppCover-01](https://user-images.githubusercontent.com/50097658/72686472-74407000-3af5-11ea-9911-5ba563a9b311.png)
 
 
-Labb 1. Appen om mig
+# Labb 1. Appen om mig
+
 En app som presenterar vem du är, dina intressen, varför du sökt den här utbildningen, eller något annat intressant.
-
----   Vid inlämning laddar ni upp ert projektet till github och skickar in länken till repot.   ---
-
-För G
 
 Använder storyboards och segues för att skapa ett menysystem.
 Minst tre olika undermenyer som går att nå med knappar.
 Använder UINavigationController.
 Titlar på de olika skärmarna (i navigation bar:en).
 En bild på valfri skärm
-För VG
-
 En av skärmarna har en eller flera knappar som påverkar inställningar för t ex bakgrundsfärg eller annat utseende på appen.
 Inställningen ska påverka de andra skärmarna i appen, inte bara den användaren just tittar på.
 Inställningen behöver inte sparas när appen stängs av.
