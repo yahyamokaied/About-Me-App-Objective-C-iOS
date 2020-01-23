@@ -11,7 +11,16 @@
 @interface ViewController ()
 
 @property (strong, nonatomic) IBOutlet UILabel *changeLabel;
+
 @property (strong, nonatomic) IBOutlet UIButton *appNameButtonHome;
+@property (strong, nonatomic) IBOutlet UIButton *appNameButtonAboutMe;
+@property (strong, nonatomic) IBOutlet UIButton *appNameButtonGame;
+@property (strong, nonatomic) IBOutlet UIButton *appNameButtonWhy;
+
+
+
+
+
 @property (strong, nonatomic) IBOutlet UILabel *Resault;
 @property (strong, nonatomic) IBOutlet UILabel *Resault2;
 
@@ -66,6 +75,9 @@
 - (IBAction)changeButton:(id)sender {
     [self.changeLabel setText:@"It's Black Now"];
     [self.appNameButtonHome setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [self.appNameButtonAboutMe setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [self.appNameButtonWhy setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [self.appNameButtonGame setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {

@@ -11,7 +11,7 @@
         <!--About Me-->
         <scene sceneID="T9S-fq-jHk">
             <objects>
-                <viewController title="About Me" id="lCt-Sn-RjJ" sceneMemberID="viewController">
+                <viewController title="About Me" id="lCt-Sn-RjJ" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="x5H-la-Qfe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -102,6 +102,9 @@
                         <viewLayoutGuide key="safeArea" id="FLe-NL-fpb"/>
                     </view>
                     <navigationItem key="navigationItem" title="About Me" id="lU4-4W-r1p"/>
+                    <connections>
+                        <outlet property="appNameButtonAboutMe" destination="FqS-ue-Ecd" id="fnY-jV-0ni"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DHO-Ek-6Te" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -110,7 +113,7 @@
         <!--Why I'm Developer-->
         <scene sceneID="NgX-Bz-3SF">
             <objects>
-                <viewController title="Why I'm Developer" id="OWF-XK-yo1" sceneMemberID="viewController">
+                <viewController title="Why I'm Developer" id="OWF-XK-yo1" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MIn-Ba-fZ3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -175,6 +178,9 @@
                         <viewLayoutGuide key="safeArea" id="8aO-go-4rn"/>
                     </view>
                     <navigationItem key="navigationItem" title="Why I'm Developer" id="J05-Gd-CmV"/>
+                    <connections>
+                        <outlet property="appNameButtonWhy" destination="TGI-Y5-4ua" id="jrF-4L-8uZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J0a-qk-pg7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -312,6 +318,7 @@
                         <outlet property="InputNumber" destination="dcW-Gf-Rle" id="Pr8-pe-pB3"/>
                         <outlet property="Resault" destination="aWP-GH-qoR" id="asw-ut-oAB"/>
                         <outlet property="Resault2" destination="Cbu-Hr-VwF" id="48s-1y-dbx"/>
+                        <outlet property="appNameButtonGame" destination="Qpz-ZT-bFE" id="O4d-nK-tOl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="38a-6M-Ap1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
